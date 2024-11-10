@@ -10,28 +10,6 @@ This repository contains a simple chat server and client application implemented
 * **Color Support:** Clients can customize their message colors for better visibility.
 * **Server-side Command Handling:** The server recognizes commands like `/name`, `/whisper`, and `/color` to manage user settings.
 
-## Running the Application
-
-1. **Compile:** 
-   - Compile the `Server.java` and `Client.java` files using a Java compiler.
-
-2. **Run the Server:**
-   - Open a terminal or command prompt.
-   - Run the compiled `Server.java` file: `java Server`
-
-3. **Run the Client:**
-   - Open a new terminal or command prompt.
-   - Run the compiled `Client.java` file: `java Client`
-
-   * **Note:**  The client will attempt to connect to the server running on `localhost` at port `8888`. You can change these settings in the `Client.java` file if necessary.
-
-4. **Chatting:**
-   - Once connected, use the `/name <your_name>` command to set your username.
-   - Send messages by typing them into the terminal and pressing Enter.
-   - Use `/whisper <username> <message>` to send private messages to other users.
-   - Use `/color <color_name>` to change your message color. Available colors: `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, and `default`.
-   - Enter `/quit` to exit the chat.
-
 ## Code Explanation
 
 **Server (`Server.java`)**
@@ -62,10 +40,6 @@ This repository contains a simple chat server and client application implemented
 * The server assumes a single server instance.
 * The client should be run in a separate terminal or command prompt from the server.
 * This code demonstrates a basic chat functionality and can be further expanded with features like file sharing, user authentication, and more.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Tags
 
