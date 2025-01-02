@@ -35,6 +35,12 @@ This repository contains a simple chat server and client application implemented
     * Receives and displays messages from the server in a separate thread.
     * Handles the `/quit` command to end the chat.
 
+## Picture
+
+![Descrição da Imagem](chat.png)
+
+
+
 ## Notes
 
 * The server assumes a single server instance.
